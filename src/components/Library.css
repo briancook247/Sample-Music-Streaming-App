@@ -1,0 +1,32 @@
+.library-container {
+    background-color: #121212;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .song-list {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  
+  .song {
+    background-color: #282828;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .song:hover {
+    background-color: #333;
+  }
+  
+  .song-title {
+    font-weight: bold;
+  }
+  
+  .song-artist {
+    color: #999;
+  }
+  

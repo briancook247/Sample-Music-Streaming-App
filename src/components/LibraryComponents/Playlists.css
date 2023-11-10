@@ -1,0 +1,41 @@
+.playlists {
+    /* Add styles for the Playlists component here */
+  }
+  
+  .playlists-list {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #333 #121212;
+  }
+  
+  .playlist {
+    flex: 0 0 auto;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .playlist-image {
+    border-radius: 10px; /* Slightly rounded edges */
+    overflow: hidden;
+    width: 160px;
+    height: 160px; /* Set the image dimensions as desired */
+    margin: 0 auto 10px;
+  }
+  
+  .playlist-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crop image to fit within the container */
+  }
+  
+  .playlist-name {
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis for long names */
+  }
+  

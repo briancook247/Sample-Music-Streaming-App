@@ -1,0 +1,45 @@
+.songs {
+  /* Add styles for the Songs component here */
+}
+
+.songs-list {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #333 #121212;
+}
+
+.song {
+  flex: 0 0 auto;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.album-image {
+  border-radius: 10px; /* Slightly rounded edges */
+  overflow: hidden;
+  width: 160px;
+  height: 160px; /* Set the image dimensions as desired */
+  margin: 0 auto 10px;
+}
+
+.album-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crop image to fit within the container */
+}
+
+.song-details {
+  text-align: center;
+}
+
+.song-title {
+  font-weight: bold;
+  color: #fff;
+}
+
+.song-artist {
+  color: #999;
+}
